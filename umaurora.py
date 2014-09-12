@@ -44,6 +44,9 @@ def check_space():
 
     if space > 0:
         os.system("say \"space is available\"")
+        echo "SPACE IS AVAILABLE!!!!!!#!#!@!@!!!@!@!!!111"
+    elif space == -9999:
+        print "Error checking space.  Please make sure the CRN and course match up."
 
     # update the time
 
