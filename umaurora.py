@@ -69,6 +69,10 @@ def fetch_space_count():
     # isolate the desired table
 
     array = text.split("Sections Found</CAPTION>")
+    if len(array) == 1:
+        print "No sections found.  You might have an invalid SESSID."
+        return -9999
+
     text = array[1]
 
     # split the table rows
