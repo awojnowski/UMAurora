@@ -6,7 +6,7 @@ Checks for class University of Manitoba availability every minute.
 Requirements
 ------------
 
-1. Requests Python library
+1. [Requests](https://github.com/kennethreitz/requests) Python library
 2. OSX
 3. Desired course identifier, code, CRN, and SESSID cookie valie
 
